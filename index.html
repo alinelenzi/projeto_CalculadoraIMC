@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main id="container">
+            <section id="img">
+                <img src="./assets/images/ilutration.svg" alt="Imagem de treinamento">
+            </section>
+            <section id="calculator">
+                <form id="form">
+                    <h1 id="title">Calculadora - IMC</h1>
+                    <div class="input-box">
+                        <label for="weight">Peso em Kg</label>
+                        <div class="input-field">
+                            <i class='fas fa-weight-hanging'></i>
+                            <input type="number" id="weight" required>
+                            <span>Kg</span>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label for="height">Altura em metros</label>
+                        <div class="input-field">
+                            <i class="fas fa-ruler"></i>
+                            <input type="number" id="height" required>
+                            <span>m</span>
+                        </div>
+                    </div>
+                    <button id="calculate">
+                        Calcular
+                    </button>
+                </form>
+                <div id="infos">
+                    <div id="result">
+                        <div id="bmi">
+                            <span id="value"></span>
+                            <span>Seu IMC</span>
+                        </div>
+                        <div id="description">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div id="more_info">
+                        <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">Mais informações sobre o IMC<i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </section>
+    </main>
+    
+</body>
+</html>
